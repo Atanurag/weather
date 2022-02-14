@@ -68,7 +68,7 @@ height:40px ;
   
 }
 .bn{
-outline: none;
+
 margin-top: 20px;
 width: 90px;
   height:33px;
@@ -86,7 +86,7 @@ width: 90px;
 }
 
 .bn:hover{
-outline: none;
+
   color:#848EF7!important;
   border-radius: 50px;
   border-color: #3DFFDC !important;
@@ -101,9 +101,15 @@ font-family: 'Redressed', cursive;
 }
 .ico{
   margin-right: -53px;
-width: 48px;
-  height: 52px;
+width: 60px;
+  height: 59px;
 }
+.ico1{
+
+width: 60px;
+  height: 59px;  
+}
+
     </style>
   </head>
   <body>
@@ -138,11 +144,12 @@ width: 48px;
 <p id="papap1"class="text-center mb-5"></p>
 
 
-<div class="w-100 mx-auto d-flex justify-content-center" >
+<div class="   clo " style="width: 100%;display: flex; justify-content: center;
+">
   
 
 
-<img src="https://img.icons8.com/pastel-glyph/64/000000/cloud--v1.png" alt="" class="ico" id="immm">
+<img src="https://img.icons8.com/pastel-glyph/64/000000/clouds.png" alt="" class="ico1" id="immm">
 
 </div>
 
@@ -210,7 +217,7 @@ then((res)=>res.json())
  opo.innerHTML=j;
   
     opo1.innerHTML=at.weather[0].description;
-g.src="https://img.icons8.com/pastel-glyph/64/000000/cloud--v1.png";
+g.src="https://img.icons8.com/pastel-glyph/64/000000/clouds.png";
 console.log(at.main.temp)
   console.log(at.weather[0].description)
 }
